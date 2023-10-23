@@ -1,0 +1,26 @@
+/* Conocenos.css */
+.conocenos-container {
+    text-align: center;
+    padding: 20px; /* Opcional: Agrega un espacio alrededor del contenido */
+  }
+  
+  .image-container {
+    display: inline-block; /* Hace que el div contenedor sea en línea */
+  }
+  
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Esto centra la imagen horizontalmente en su contenedor */
+  }
+  
+  
+.info-container {
+    text-align: justify;
+  }
+
+  .h2conocenos{
+    text-align: center;
+  }

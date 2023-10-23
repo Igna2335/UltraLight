@@ -1,0 +1,48 @@
+/* RutasDomiciliosComponent.css */
+
+/* Estilo para el select */
+select {
+  padding: 10px; /* Añade espacio alrededor del select para mejorar la apariencia */
+  border: 1px solid #ccc; /* Agrega un borde alrededor del select */
+  border-radius: 4px; /* Redondea las esquinas */
+  font-size: 16px; /* Tamaño de fuente */
+  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+  background-color: #fff; /* Color de fondo */
+}
+
+/* Estilo para las opciones del select */
+select option {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Estilo para el contenedor del select (si es necesario) */
+#select-container {
+  margin-bottom: 20px;
+}
+
+/* Estilo para el select cuando está enfocado (en caso de que quieras agregar efectos visuales al enfoque) */
+select:focus {
+  border: 1px solid #4CAF50; /* Cambia el color del borde cuando el select está enfocado */
+}
+
+.tag-container{
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-map{
+  width: 350px;
+  max-width: 350px;
+}
+
+.Button{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
